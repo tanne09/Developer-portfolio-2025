@@ -29,6 +29,15 @@
     cursor: pointer;
 }
 
+/* header  */
+
+.header{
+    background-image: url('images/developer.png') , url("images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+
 /* nav style */
 
 nav{
@@ -57,4 +66,32 @@ nav li a{
 nav ul{
     display: flex;
     align-items: center;
+}
+
+
+
+/* Banner style start */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+
+.banner-content{
+    max-width: 580px;
+}
+
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+
+.banner-profile-pic{
+    width: 580px;
 }
