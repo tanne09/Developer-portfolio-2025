@@ -212,3 +212,29 @@ footer input[type="text"] , footer input[type="email"] , footer textarea {
     font-size: 16px;
 
 }
+
+.hide{
+    display: none;
+}
+
+
+/* Responsive media Query */
+
+
+@media screen and (max-width: 576px) {
+    .skills-container, .resume-container, footer{
+        flex-direction: column;
+    }
+
+    footer{
+        padding: 20px;
+    }
+
+    .footer-column{
+        width: 100%;
+    }
+
+    footer input[type="text"] , footer input[type="email"] , footer{
+        width: calc(100% - 40%);
+    }
+}
