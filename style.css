@@ -222,11 +222,14 @@ footer input[type="text"] , footer input[type="email"] , footer textarea {
 
 
 @media screen and (max-width: 576px) {
-    .skills-container, .resume-container, footer .about-items{
+    .skills-container, 
+    .resume-container, 
+    footer, 
+    .about-items{
         flex-direction: column;
     }
 
-    footer .about{
+    footer, .about{
         padding: 20px;
     }
 
@@ -234,7 +237,7 @@ footer input[type="text"] , footer input[type="email"] , footer textarea {
         width: 100%;
     }
 
-    footer input[type="text"] , footer input[type="email"] , footer{
-        width: calc(100% - 40%);
+    footer input[type="text"] , footer input[type="email"] , footer textarea{
+        width: calc(100% - 40px);
     }
 }
